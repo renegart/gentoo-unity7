@@ -90,7 +90,7 @@ einstalldocs() {
 ubuntu-versionator_pkg_setup() {
 	debug-print-function ${FUNCNAME} "$@"
 
-	[[ "$(readlink /etc/portage/make.profile)" == *"gentoo-unity7"* ]] \
+	[[ "$(readlink /etc/portage/make.profile)" == *"gentoo-unity7"* || "$(readlink /etc/portage/make.profile)" == *"gentoo-lomiri"* ]] \
 		|| die "Invalid profile detected, please select gentoo-unity7 profile shown in 'eselect profile list'."
 
 	declare -F font_pkg_setup 1>/dev/null && font_pkg_setup

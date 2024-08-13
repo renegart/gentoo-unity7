@@ -1,0 +1,2 @@
+# PCH is masked globally due to its instability (see gentoo:base/use.mask) #
+dev-libs/libcolumbus -pch
