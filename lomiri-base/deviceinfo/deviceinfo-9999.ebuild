@@ -17,7 +17,7 @@ fi
 DESCRIPTION="Library to detect and configure devices."
 HOMEPAGE="https://gitlab.com/ubports/development/core/${PN}"
 
-LICENSE="LGPL-2.1"
+LICENSE="GPL-3"
 SLOT="0"
 
 IUSE="extras test"

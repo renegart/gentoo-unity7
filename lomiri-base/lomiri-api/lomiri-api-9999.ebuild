@@ -17,7 +17,7 @@ fi
 DESCRIPTION="API for Lomiri shell integration"
 HOMEPAGE="https://gitlab.com/ubports/development/core/${PN}"
 
-LICENSE="LGPL-2.1"
+LICENSE="LGPL-3"
 SLOT="0.2.0"
 
 DEPEND="
