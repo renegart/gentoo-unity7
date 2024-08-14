@@ -6,9 +6,11 @@ EAPI=8
 inherit cmake
 
 if [[ ${PV} == 9999 ]]; then
+    KEYWORDS=""
     EGIT_REPO_URI="https://gitlab.com/ubports/development/core/${PN}.git"
     inherit git-r3
 else
+    KEYWORDS="~amd64"
     SRC_URI="https://gitlab.com/ubports/development/core/${PN}/-/archive/${PV}/${PN}-${PV}.tar.gz"
 fi
 
@@ -17,7 +19,6 @@ HOMEPAGE="https://gitlab.com/ubports/development/core/${PN}"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~amd64"
 IUSE="extras test"
 RESTRICT="!test? ( test )"
 
