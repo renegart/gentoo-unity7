@@ -14,7 +14,7 @@ else
     SRC_URI="https://gitlab.com/ubports/development/core/${PN}/-/archive/${PV}/${PN}-${PV}.tar.gz"
 fi
 
-DESCRIPTION="This package contains the configuration schemas used by Lomiri."
+DESCRIPTION="Library to detect and configure devices."
 HOMEPAGE="https://gitlab.com/ubports/development/core/${PN}"
 
 LICENSE="LGPL-2.1"
