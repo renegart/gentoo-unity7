@@ -8,7 +8,7 @@ DISTUTILS_OPTIONAL=1
 DISTUTILS_SINGLE_IMPL=1
 PYTHON_COMPAT=( python3_{10..13} )
 
-inherit autotools distutils-r1
+inherit autotools distutils-r1 vala
 
 if [[ ${PV} == 9999 ]]; then
     KEYWORDS=""
@@ -32,6 +32,8 @@ DEPEND="
     dev-libs/json-glib
     dev-libs/libgee
     dev-libs/properties-cpp
+
+    $(vala_depend)
 "
 
 RDEPEND="
@@ -47,18 +49,31 @@ BDEPEND="
 "
 
 src_prepare() {
+	#eapply "${FILESDIR}"/click-remove_pythonbuild.patch
+
+    cp ${FILESDIR}/Makefile_without_setuptools.am ${S}/Makefile.am
     default
 
     # disable tests
     sed -i "/DBUS_TEST_RUNNER_CHECK/d" configure.ac || die
 
+
     eautoreconf
+    vala_setup
 }
 
 src_compile () {
+    # fix QA Notice: warning: implicit declaration of function '__fxstat'
+    # fix QA Notice: warning: implicit declaration of function '__fxstat64'
+    sed -i "s/return __fxstat/return __xstat/g" preload/clickpreload.c
+    sed -i "s/return __fxstat64/return __xstat64/g" preload/clickpreload.c
+
+    emake
     distutils-r1_src_compile
 }
 
 src_install() {
+    emake DESTDIR="${D}" install
+
     distutils-r1_src_install
 }

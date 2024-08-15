@@ -1,0 +1,5 @@
+SUBDIRS = lib preload conf debhelper init schroot click-service
+
+ACLOCAL_AMFLAGS = -I m4
+
+include $(top_srcdir)/Makefile.am.coverage
