@@ -1,0 +1,13 @@
+diff --git a/liblomiri-app-launch/CMakeLists.txt b/liblomiri-app-launch/CMakeLists.txt
+index 7d49df3..8926ae2 100644
+--- a/liblomiri-app-launch/CMakeLists.txt
++++ b/liblomiri-app-launch/CMakeLists.txt
+@@ -112,7 +112,7 @@ set(LAUNCHER_GEN_SOURCES
+
+ add_gdbus_codegen_with_namespace(LAUNCHER_GEN_SOURCES proxy-socket-demangler com.lomiri.LomiriAppLaunch. proxy ${CMAKE_SOURCE_DIR}/data/com.lomiri.LomiriAppLaunch.SocketDemangler.xml)
+
+-add_library(launcher-static ${LAUNCHER_SOURCES} ${LAUNCHER_CPP_SOURCES} ${LAUNCHER_GEN_SOURCES})
++add_library(launcher-static STATIC ${LAUNCHER_SOURCES} ${LAUNCHER_CPP_SOURCES} ${LAUNCHER_GEN_SOURCES})
+
+ target_link_libraries(launcher-static
+        ${GLIB2_LIBARIES}
