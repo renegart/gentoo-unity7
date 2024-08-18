@@ -1,4 +1,5 @@
 lomiri-base/*::gentoo-unity7
+lomiri-extra/*::gentoo-unity7
 mir-base/*::gentoo-unity7
 
 dev-util/click::gentoo-unity7

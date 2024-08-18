@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 4e13e6c..c530ede 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,6 +1,8 @@
+ cmake_minimum_required(VERSION 3.5)
+ project(lomiri-url-dispatcher VERSION 0.1.3 LANGUAGES C CXX)
+ 
++cmake_policy(SET CMP0153 OLD)
++
+ string(TOLOWER "${CMAKE_BUILD_TYPE}" cmake_build_type_lower) # Build types should always be lowercase but sometimes they are not.
+ 
+ if ("${cmake_build_type_lower}" STREQUAL "debug")
