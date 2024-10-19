@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit cmake qmake-utils
+inherit cmake xdg qmake-utils
 
 if [[ ${PV} == 9999 ]]; then
     KEYWORDS=""
@@ -27,7 +27,9 @@ DEPEND="
     app-crypt/libsecret
     dev-libs/glib
     lomiri-base/lomiri-api
+    lomiri-extra/lomiri-url-dispatcher
     net-misc/ofono
+    net-misc/libqofono
     net-misc/networkmanager
     dev-qt/qtcore:5
     dev-qt/qtdbus:5
@@ -42,6 +44,9 @@ BDEPEND="
 "
 
 src_configure() {
+
+    # add 'qmlplugindump' to PATH
+    export PATH="$(qt5_get_bindir):${PATH}"
 
     # disable tests for now
     local mycmakeargs=(
