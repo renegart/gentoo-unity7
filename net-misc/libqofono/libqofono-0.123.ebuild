@@ -45,7 +45,7 @@ pkg_setup() {
 src_prepare() {
     default
 
-    # disable build of tests
+    # disable build of tests for now
     sed -i 's/test ofonotest//' libqofono.pro || die
 
     multibuild_copy_sources
