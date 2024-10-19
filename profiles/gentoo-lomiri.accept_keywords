@@ -1,7 +1,12 @@
+dev-util/click::gentoo-unity7
+
 lomiri-base/*::gentoo-unity7
 lomiri-extra/*::gentoo-unity7
 lomiri-indicators/*::gentoo-unity7
+
+media-libs/qmenumodel::gentoo-unity7
+
 mir-base/*::gentoo-unity7
+
 net-misc/libqofono::gentoo-unity7
 
-dev-util/click::gentoo-unity7
