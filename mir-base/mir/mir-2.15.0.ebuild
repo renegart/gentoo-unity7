@@ -9,7 +9,6 @@ inherit cmake
 KEYWORDS="~amd64"
 SRC_URI="https://github.com/MirServer/${PN}/releases/download/v${PV}/${PN}-${PV}.tar.xz"
 
-
 DESCRIPTION="Mir Display Server."
 HOMEPAGE="https://github.com/MirServer"
 

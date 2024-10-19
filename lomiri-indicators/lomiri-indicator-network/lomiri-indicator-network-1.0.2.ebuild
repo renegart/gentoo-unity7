@@ -20,9 +20,6 @@ HOMEPAGE="https://gitlab.com/ubports/development/core/${PN}"
 LICENSE="LGPL-3 GPL-3"
 SLOT="0"
 
-# gmenuharness
-# gtest
-# lomiri-url-dispatcher
 DEPEND="
     app-crypt/libsecret
     dev-libs/glib
