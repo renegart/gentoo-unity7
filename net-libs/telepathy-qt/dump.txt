@@ -1,0 +1,2409 @@
+ * telepathy-qt-0.9.8.tar.gz BLAKE2B SHA512 size ;-) ...                 [ ok ]
+>>> Unpacking source...
+>>> Unpacking telepathy-qt-0.9.8.tar.gz to /var/tmp/portage/net-libs/telepathy-qt-0.9.8/work
+>>> Source unpacked in /var/tmp/portage/net-libs/telepathy-qt-0.9.8/work
+>>> Preparing source in /var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8 ...
+ [32m*[0m Source directory (CMAKE_USE_DIR): "/var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8"
+ [32m*[0m Build directory  (BUILD_DIR):     "/var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8_build"
+ [32m*[0m Hardcoded definition(s) removed in CMakeLists.txt:
+ [32m*[0m          set(CMAKE_BUILD_TYPE RelWithDebInfo)
+ [32m*[0m          set(CMAKE_BUILD_TYPE Debug)
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8 ...
+ [32m*[0m Source directory (CMAKE_USE_DIR): "/var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8"
+ [32m*[0m Build directory  (BUILD_DIR):     "/var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8_build"
+cmake -C /var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8_build/gentoo_common_config.cmake -G Ninja -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=/var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8_build/gentoo_toolchain.cmake /var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8
+loading initial cache file /var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8_build/gentoo_common_config.cmake
+[33mCMake Warning (dev) at CMakeLists.txt:1 (project):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- The C compiler identification is GNU 13.3.1
+-- The CXX compiler identification is GNU 13.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/bin/x86_64-pc-linux-gnu-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/bin/x86_64-pc-linux-gnu-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Checking to see if CXX compiler accepts flag -fvisibility=hidden
+-- Checking to see if CXX compiler accepts flag -fvisibility=hidden - yes
+-- Checking to see if CXX compiler accepts flag -fvisibility-inlines-hidden
+-- Checking to see if CXX compiler accepts flag -fvisibility-inlines-hidden - yes
+-- Checking to see if CXX compiler accepts flag -Wdeprecated-declarations
+-- Checking to see if CXX compiler accepts flag -Wdeprecated-declarations - yes
+-- Performing Test all_cxx_result
+-- Performing Test all_cxx_result - Success
+-- Performing Test extra_cxx_result
+-- Performing Test extra_cxx_result - Success
+-- Performing Test sign-compare_cxx_result
+-- Performing Test sign-compare_cxx_result - Success
+-- Performing Test pointer-arith_cxx_result
+-- Performing Test pointer-arith_cxx_result - Success
+-- Performing Test format-security_cxx_result
+-- Performing Test format-security_cxx_result - Success
+-- Performing Test init-self_cxx_result
+-- Performing Test init-self_cxx_result - Success
+-- Performing Test non-virtual-dtor_cxx_result
+-- Performing Test non-virtual-dtor_cxx_result - Success
+-- Performing Test error_cxx_result
+-- Performing Test error_cxx_result - Success
+-- Performing Test missing-field-initializers_cxx_result
+-- Performing Test missing-field-initializers_cxx_result - Success
+-- Performing Test noerror_missing-field-initializers_cxx_result
+-- Performing Test noerror_missing-field-initializers_cxx_result - Success
+-- Performing Test unused-parameter_cxx_result
+-- Performing Test unused-parameter_cxx_result - Success
+-- Performing Test noerror_unused-parameter_cxx_result
+-- Performing Test noerror_unused-parameter_cxx_result - Success
+-- Performing Test unused-local-typedefs_cxx_result
+-- Performing Test unused-local-typedefs_cxx_result - Success
+-- Performing Test noerror_unused-local-typedefs_cxx_result
+-- Performing Test noerror_unused-local-typedefs_cxx_result - Success
+-- Performing Test all_c_result
+-- Performing Test all_c_result - Success
+-- Performing Test extra_c_result
+-- Performing Test extra_c_result - Success
+-- Performing Test declaration-after-statement_c_result
+-- Performing Test declaration-after-statement_c_result - Success
+-- Performing Test shadow_c_result
+-- Performing Test shadow_c_result - Success
+-- Performing Test strict-prototypes_c_result
+-- Performing Test strict-prototypes_c_result - Success
+-- Performing Test missing-prototypes_c_result
+-- Performing Test missing-prototypes_c_result - Success
+-- Performing Test sign-compare_c_result
+-- Performing Test sign-compare_c_result - Success
+-- Performing Test nested-externs_c_result
+-- Performing Test nested-externs_c_result - Success
+-- Performing Test pointer-arith_c_result
+-- Performing Test pointer-arith_c_result - Success
+-- Performing Test format-security_c_result
+-- Performing Test format-security_c_result - Success
+-- Performing Test init-self_c_result
+-- Performing Test init-self_c_result - Success
+-- Performing Test error_c_result
+-- Performing Test error_c_result - Success
+-- Performing Test missing-field-initializers_c_result
+-- Performing Test missing-field-initializers_c_result - Success
+-- Performing Test noerror_missing-field-initializers_c_result
+-- Performing Test noerror_missing-field-initializers_c_result - Success
+-- Performing Test unused-parameter_c_result
+-- Performing Test unused-parameter_c_result - Success
+-- Performing Test noerror_unused-parameter_c_result
+-- Performing Test noerror_unused-parameter_c_result - Success
+-- Performing Test unused-local-typedefs_c_result
+-- Performing Test unused-local-typedefs_c_result - Success
+-- Performing Test noerror_unused-local-typedefs_c_result
+-- Performing Test noerror_unused-local-typedefs_c_result - Success
+-- Warning! LIB_SUFFIX and LIB_INSTALL_DIR options are deprecated. Use GNUInstallDirs options instead.
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Performing Test QT_GLIB_SUPPORT
+-- Performing Test QT_GLIB_SUPPORT - Success
+-- Found Python3: /usr/bin/python3 (found version "3.12.6") found components: Interpreter
+-- Found PkgConfig: /usr/bin/x86_64-pc-linux-gnu-pkg-config (found version "2.3.0")
+-- Checking for module 'telepathy-glib>=0.18.0'
+--   Package 'telepathy-glib' not found
+-- Telepathy-glib not found or its version is < 0.18.0
+-- Checking for module 'glib-2.0'
+--   Found glib-2.0, version 2.78.6
+-- Checking for module 'gobject-2.0'
+--   Found gobject-2.0, version 2.78.6
+-- Found GObject libraries: gobject-2.0;glib-2.0
+-- Found GObject includes : /usr/include/glib-2.0
+-- Checking for module 'gio-2.0'
+--   Found gio-2.0, version 2.78.6
+-- Checking for module 'gio-unix-2.0'
+--   Found gio-unix-2.0, version 2.78.6
+[33mCMake Warning (dev) at /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:441 (message):
+  The package name passed to `find_package_handle_standard_args` (GIOUNIX)
+  does not match the name of the calling package (GIOUnix).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindGIOUnix.cmake:29 (find_package_handle_standard_args)
+  CMakeLists.txt:188 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Could NOT find GIOUNIX (missing: GIOUNIX_MAIN_INCLUDE_DIR) 
+-- Checking for module 'dbus-1'
+--   Found dbus-1, version 1.15.8
+-- Checking for module 'dbus-glib-1'
+--   Found dbus-glib-1, version 0.112
+[33mCMake Warning (dev) at /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:441 (message):
+  The package name passed to `find_package_handle_standard_args` (DBUS_GLIB)
+  does not match the name of the calling package (DBusGLib).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindDBusGLib.cmake:57 (find_package_handle_standard_args)
+  CMakeLists.txt:190 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found DBUS_GLIB: /usr/lib64/libdbus-glib-1.so
+-- Checking for module 'farstream-0.2>=0.2.0'
+--   Package 'farstream-0.2' not found
+-- Could NOT find Farstream (missing: FARSTREAM_LIBRARIES FARSTREAM_INCLUDE_DIR) 
+-- Checking for module 'telepathy-farstream>=0.6.0'
+--   Package 'telepathy-farstream' not found
+-- Could NOT find TelepathyFarstream (missing: TELEPATHY_FARSTREAM_LIBRARIES TELEPATHY_FARSTREAM_INCLUDE_DIR) 
+-- Checking for module 'gstreamer-1.0'
+--   Found gstreamer-1.0, version 1.22.11
+-- Found GStreamer: /usr/lib64/libgstreamer-1.0.so
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:717 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:718 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:719 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:720 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:721 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:722 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:723 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:724 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:725 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:726 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:727 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:728 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:729 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:730 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:731 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:732 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:733 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:734 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:236 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:735 (tpqt_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:274 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:737 (tpqt_future_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:274 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:738 (tpqt_future_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:274 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:739 (tpqt_future_client_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:765 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:311 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:952 (tpqt_service_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:311 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:953 (tpqt_service_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:311 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:954 (tpqt_service_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:311 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:955 (tpqt_service_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:311 (tpqt_generate_moc_i_target_deps)
+  TelepathyQt/CMakeLists.txt:956 (tpqt_service_generator)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:187 (qt_get_moc_flags)
+  TelepathyQt/CMakeLists.txt:983 (tpqt_generate_moc_i_target_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/accounts/CMakeLists.txt:12 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/accounts/CMakeLists.txt:12 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/accounts/CMakeLists.txt:12 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/accounts/CMakeLists.txt:12 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/contact-messenger/CMakeLists.txt:7 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/contact-messenger/CMakeLists.txt:7 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/cm/CMakeLists.txt:10 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/cm/CMakeLists.txt:10 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  examples/extensions/CMakeLists.txt:68 (tpqt_generate_moc_i)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  examples/extensions/CMakeLists.txt:68 (tpqt_generate_moc_i)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:13 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:13 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:13 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:13 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:13 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:13 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:13 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:13 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:31 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:31 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:31 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:31 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:31 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/file-transfer/CMakeLists.txt:31 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/protocols/CMakeLists.txt:10 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/protocols/CMakeLists.txt:10 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/protocols/CMakeLists.txt:10 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/protocols/CMakeLists.txt:10 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/roster/CMakeLists.txt:12 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/roster/CMakeLists.txt:12 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/roster/CMakeLists.txt:12 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/roster/CMakeLists.txt:12 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/roster/CMakeLists.txt:12 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/roster/CMakeLists.txt:12 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/stream-tubes/CMakeLists.txt:7 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/stream-tubes/CMakeLists.txt:7 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/stream-tubes/CMakeLists.txt:22 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:198 (tpqt_generate_moc_i)
+  examples/stream-tubes/CMakeLists.txt:22 (tpqt_generate_mocs)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:33 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:33 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:34 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:34 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:35 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:35 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:36 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:36 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:37 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:37 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:38 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:38 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:39 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:39 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:40 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:40 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:41 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:41 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:42 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:42 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:43 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:411 (tpqt_generate_moc_i)
+  tests/CMakeLists.txt:43 (tpqt_add_generic_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:6 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:6 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:69 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:69 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:70 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:70 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:71 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:71 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:74 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:74 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:75 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:75 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:77 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:422 (tpqt_generate_moc_i)
+  tests/dbus/CMakeLists.txt:77 (tpqt_add_dbus_unit_test)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  tests/lib/CMakeLists.txt:19 (tpqt_generate_moc_i)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  tests/lib/CMakeLists.txt:19 (tpqt_generate_moc_i)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_get_moc_flags is not part of the official API, and might be removed in
+  Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:86 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:3 (qt5_get_moc_flags)
+  cmake/modules/TpQtMacros.cmake:179 (qt_get_moc_flags)
+  tests/lib/CMakeLists.txt:19 (tpqt_generate_moc_i)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_create_moc_command is not part of the official API, and might be
+  removed in Qt 6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:120 (_qt5_warn_deprecated)
+  cmake/modules/QtMacros.cmake:9 (qt5_create_moc_command)
+  cmake/modules/TpQtMacros.cmake:181 (qt_create_moc_command)
+  tests/lib/CMakeLists.txt:19 (tpqt_generate_moc_i)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- The following features have been enabled:
+
+ * Qt GLib support, QtCore library using Glib's main event loop; needed, together with Telepathy-Glib, to build most of the unit tests
+ * dbus-python, GLib-based Python DBus support; needed to build some additional unit tests
+
+-- The following RECOMMENDED packages have been found:
+
+ * GStreamer, An open source multimedia framework, <http://www.gstreamer.net/>
+   Needed, together with Tp-Farstream, to build telepathy-qt-farstream and some additional examples
+
+-- The following REQUIRED packages have been found:
+
+ * Qt5DBus
+ * Qt5Network
+ * Qt5Xml
+ * Qt5Test
+ * Python3, Python Interpreter, <http://www.python.org>
+ * PkgConfig
+ * Qt5Core
+ * Qt5Gui
+ * Qt5Widgets
+ * Qt5 (required version >= 5.6.0)
+
+-- The following OPTIONAL packages have not been found:
+
+ * Doxygen, Documentation generator, <http://doxygen.org>
+   Needed to generate the API documentation
+
+-- The following RECOMMENDED packages have not been found:
+
+ * TelepathyGlib (required version >= 0.18.0), Glib bindings for Telepathy, <http://telepathy.freedesktop.org/>
+   Needed, together with Qt Glib integration, to build most of the unit tests
+ * Farstream, A Framework for dealing with audio/video conferencing protocols, <http://www.freedesktop.org/wiki/Software/Farstream>
+   Needed, together with GStreamer and Telepathy-Farstream, to build telepathy-qt-farstream
+ * TelepathyFarstream, A Framework for dealing with audio/video conferencing protocols, <http://telepathy.freedesktop.org/wiki/>
+   Needed, together with GStreamer and Farstream, to build telepathy-qt-farstream
+
+-- <<< Gentoo configuration >>>
+Build type      RelWithDebInfo
+Install path    /usr
+Compiler flags:
+C               -march=native -O2 -fvect-cost-model=dynamic -fno-semantic-interposition -pipe  -Wall -Wextra -Wdeclaration-after-statement -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wsign-compare -Wnested-externs -Wpointer-arith -Wformat-security -Winit-self -Wno-missing-field-initializers -Wno-unused-parameter -Wno-unused-local-typedefs
+C++             -march=native -O2 -fvect-cost-model=dynamic -fno-semantic-interposition -pipe  -Wall -Wextra -Wsign-compare -Wpointer-arith -Wformat-security -Winit-self -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-unused-parameter -Wno-unused-local-typedefs
+Linker flags:
+Executable      -Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs
+Module          -Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs
+Shared          -Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs
+
+-- Configuring done (5.6s)
+-- Generating done (0.3s)
+-- Build files have been written to: /var/tmp/portage/net-libs/telepathy-qt-0.9.8/work/telepathy-qt-0.9.8_build
+>>> Source configured.
