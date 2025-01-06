@@ -10,7 +10,7 @@ EAPI=8
 inherit cmake
 
 DESCRIPTION="The Lomiri (Unity8) Desktop"
-HOMEPAGE="https://gitlab.com/ubports/development/core/lomiri"
+HOMEPAGE="https://gitlab.com/ubports/development/core/${PN}"
 
 if [[ ${PV} == 9999 ]]; then
     KEYWORDS=""
@@ -26,23 +26,28 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="test"
 
-COMMON_DEPEND="
+DEPEND="
 	dev-libs/glib
 	dev-qt/qtsvg:5
 	dev-qt/qtsql:5
 	dev-qt/qtxml:5
-	gnome-base/gnome-desktop:3
+	gnome-base/gsettings-desktop-schemas
+	lomiri-base/lomiri-api
+	lomiri-base/lomiri-schemas
+	lomiri-base/lomiri-settings-components
+	lomiri-extra/lomiri-app-launch
+	lomiri-indicators/lomiri-notifications
 	net-libs/geonames
 "
 
-RDEPEND="${COMMON_DEPEND}"
-
-DEPEND="${COMMON_DEPEND}"
+RDEPEND="${DEPEND}"
 
 BDEPEND="
 	dev-build/cmake-extras
     dev-util/intltool
 	virtual/pkgconfig
+	gnome-base/gnome-desktop:3
+	dev-qt/qtdeclarative:5
 "
 
 PATCHES=(

@@ -9,4 +9,4 @@ media-libs/qmenumodel::gentoo-unity7
 mir-base/*::gentoo-unity7
 
 net-misc/libqofono::gentoo-unity7
-
+net-libs/telepathy-qt::gentoo-unity7
